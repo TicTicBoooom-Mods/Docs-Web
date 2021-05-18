@@ -12,3 +12,19 @@ menu:
 weight: 650
 toc: true
 ---
+
+
+
+- `"controllerId": STRING`
+
+The unique identifier for the controller, must be lowercase and contain only the following characters: `abcdefghijklmnopqrstuvwxyz_`
+
+---
+
+- `"name": STRING` 
+
+A human readable name which displays the controllerId field in a user-friendly fashion
+
+---
+
+- `"textureOverride": STRING` (Optional)
