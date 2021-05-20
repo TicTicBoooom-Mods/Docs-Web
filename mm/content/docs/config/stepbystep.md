@@ -183,4 +183,4 @@ This will create both input and outputs ports of this type and tier have a chest
 
 Now run the game with this config and you should get a result of 1 `Basic Controller` and 2 Port blocks with chest like inventories (when clicked) of 3 rows and 4 columns.
 
-For m,ore/larger examples [Click Here](/docs/config/types/#controllers-file-config-data-section)
+For more/larger examples [Click Here](/docs/config/examples)

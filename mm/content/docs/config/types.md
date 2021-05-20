@@ -18,6 +18,8 @@ toc: true
 - `masterfulmachinery:energy` (Forge Energy Ports)
 - `masterfulmachinery:mekanism_gas` (Mekanism Gas Ports)
 - `masterfulmachinery:mekanism_slurry` (Mekanism Slurry Ports)
+- `masterfulmachinery:create_rotation` (Create Rotation Ports)
+- `masterfulmachinery:pncr_pressure` (Pneumaticcraft Pressure Ports)
 
 
 ## Controllers File Config Data Section
