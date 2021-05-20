@@ -12,7 +12,7 @@ menu:
 toc: true
 weight: 620
 ---
-## Czbüendel
+## <span style="color:blue">Czbüendel</span>
 <details>
 <summary>Industrial Kiln</summary>
 <br>
@@ -72,7 +72,7 @@ Structure File
 </details>
 </details>
 
-## Jerome226
+## <span style="color:blue">Jerome226</span>
 <details>
 <summary>Infuser</summary>
 <br>
@@ -174,7 +174,7 @@ Structure File
 </details>
 </details>
 
-## ThomasR
+## <span style="color:blue">ThomasR</span>
 <details>
 <summary>Quantum Implosion Compressor</summary>
 <br>
@@ -226,7 +226,7 @@ Structure File
 </details>
 </details>
 
-## TemperedFool
+## <span style="color:blue">TemperedFool</span>
 <details>
 <summary>Starlight Infusing Engine</summary>
 <br>
