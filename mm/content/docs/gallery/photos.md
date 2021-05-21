@@ -12,17 +12,23 @@ menu:
 toc: true
 weight: 620
 ---
-## <span style="color:blue">Czbüendel</span>
-<details>
-<summary>Industrial Kiln</summary>
+<style>
+r { color: Tomato }
+g { color: MediumSeaGreen }
+b { color: DodgerBlue }
+</style>
+
+## <r>Czbüendel</r>
+<details> <!-- industrialKiln -->
+<summary><b>Industrial Kiln</b></summary>
 <br>
 
-Industrial Kiln made by Czbüendel
+#### <b>Industrial Kiln made by Czbüendel</b>
 ![Industrial Kiln made by Czbüendel](/images/czbüendel-industrialkiln.png "Czbüendel - Industrial Kiln")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -31,19 +37,20 @@ Structure File
 </details>
 
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
 
 ```
 </details>
-</details>
-<details>
-<summary>Industrial Crusher</summary>
+</details> <!-- END industrialKiln -->
+<details> <!-- industrialCrusher -->
+<summary><b>Industrial Crusher</b></summary>
 <br>
 
-Industrial Crusher made by Czbüendel
+#### <b>Industrial Crusher made by Czbüendel</b>
+
 ![Industrial Crusher made by Czbüendel](/images/czbüendel-industrialcrusher1.png "Czbüendel - Industrial Crusher")
 
 ![Industrial Crusher made by Czbüendel](/images/czbüendel-industrialcrusher2.png "Czbüendel - Industrial Crusher")
@@ -52,37 +59,277 @@ Industrial Crusher made by Czbüendel
 
 ![Industrial Crusher made by Czbüendel](/images/czbüendel-industrialcrusher4.png "Czbüendel - Industrial Crusher")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
-
+{
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "basic",
+    "id": "ic",
+    "name": "Industrial Crusher",
+    "layout": [
+      [
+        " !!! ",
+        "\"!!!\"",
+        "!!!!!",
+        "!!!!!",
+        "!!!!!",
+        "#!!!$",
+        "#####",
+        "#####"
+      ],
+      [
+        " !%! ",
+        "\"!&!\"",
+        "'!&!'",
+        "'!&!'",
+        "!((($",
+        ")(((*",
+        "C+++$",
+        "#####"
+      ],
+      [
+        " ,-, ",
+        " ,!, ",
+        " ,!, ",
+        " ,!, ",
+        ",\".\",",
+        "\"   \"",
+        "\"   \"",
+        ",\"\"\","
+      ],
+      [
+        "  /  ",
+        "  /  ",
+        "  /  ",
+        "  /  ",
+        " \"-\" ",
+        "\"+++\"",
+        "\"+++\"",
+        " \"0\" "
+      ],
+      [
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        " \"\"\" ",
+        "\"111\"",
+        "\"111\"",
+        " \"\"\" "
+      ],
+      [
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        " \"\"\" ",
+        "\"   \"",
+        "\"   \"",
+        " \"\"\" "
+      ]
+    ],
+    "legend": {
+      "!": {
+        "block": "mekanism:boiler_casing"
+      },
+      "\"": {
+        "block": "immersiveengineering:sheetmetal_steel"
+      },
+      "#": {
+        "block": "immersiveengineering:steel_scaffolding_grate_top"
+      },
+      "$": {
+        "block": "immersiveengineering:generator"
+      },
+      "%": {
+        "block": "masterfulmachinery:basic_basic_port_items_output"
+      },
+      "&": {
+        "block": "immersiveengineering:conveyor_covered"
+      },
+      "'": {
+        "block": "immersiveengineering:radiator"
+      },
+      "(": {
+        "block": "immersiveengineering:conveyor_basic"
+      },
+      ")": {
+        "block": "immersiveengineering:rs_engineering"
+      },
+      "*": {
+        "block": "masterfulmachinery:basic_chungus_port_energy_input"
+      },
+      "+": {
+        "block": "immersiveengineering:heavy_engineering"
+      },
+      ",": {
+        "block": "immersiveengineering:stairs_steel_scaffolding_grate_top"
+      },
+      "-": {
+        "block": "engineersdecor:fluid_barrel"
+      },
+      ".": {
+        "block": "immersiveengineering:light_engineering"
+      },
+      "/": {
+        "block": "immersiveengineering:fluid_pipe"
+      },
+      "0": {
+        "block": "masterfulmachinery:basic_basic_port_items_input"
+      },
+      "1": {
+        "block": "engineersdecor:steel_floor_grating"
+      }
+    }
+  }
 ```
 </details>
 
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
-
+event.custom({
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "basic",
+    "id": "ic",
+    "name": "Industrial Crusher",
+    "layout": [
+      [
+        " !!! ",
+        "\"!!!\"",
+        "!!!!!",
+        "!!!!!",
+        "!!!!!",
+        "#!!!$",
+        "#####",
+        "#####"
+      ],
+      [
+        " !%! ",
+        "\"!&!\"",
+        "'!&!'",
+        "'!&!'",
+        "!((($",
+        ")(((*",
+        "C+++$",
+        "#####"
+      ],
+      [
+        " ,-, ",
+        " ,!, ",
+        " ,!, ",
+        " ,!, ",
+        ",\".\",",
+        "\"   \"",
+        "\"   \"",
+        ",\"\"\","
+      ],
+      [
+        "  /  ",
+        "  /  ",
+        "  /  ",
+        "  /  ",
+        " \"-\" ",
+        "\"+++\"",
+        "\"+++\"",
+        " \"0\" "
+      ],
+      [
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        " \"\"\" ",
+        "\"111\"",
+        "\"111\"",
+        " \"\"\" "
+      ],
+      [
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        " \"\"\" ",
+        "\"   \"",
+        "\"   \"",
+        " \"\"\" "
+      ]
+    ],
+    "legend": {
+      "!": {
+        "block": "mekanism:boiler_casing"
+      },
+      "\"": {
+        "block": "immersiveengineering:sheetmetal_steel"
+      },
+      "#": {
+        "block": "immersiveengineering:steel_scaffolding_grate_top"
+      },
+      "$": {
+        "block": "immersiveengineering:generator"
+      },
+      "%": {
+        "block": "masterfulmachinery:basic_basic_port_items_output"
+      },
+      "&": {
+        "block": "immersiveengineering:conveyor_covered"
+      },
+      "'": {
+        "block": "immersiveengineering:radiator"
+      },
+      "(": {
+        "block": "immersiveengineering:conveyor_basic"
+      },
+      ")": {
+        "block": "immersiveengineering:rs_engineering"
+      },
+      "*": {
+        "block": "masterfulmachinery:basic_chungus_port_energy_input"
+      },
+      "+": {
+        "block": "immersiveengineering:heavy_engineering"
+      },
+      ",": {
+        "block": "immersiveengineering:stairs_steel_scaffolding_grate_top"
+      },
+      "-": {
+        "block": "engineersdecor:fluid_barrel"
+      },
+      ".": {
+        "block": "immersiveengineering:light_engineering"
+      },
+      "/": {
+        "block": "immersiveengineering:fluid_pipe"
+      },
+      "0": {
+        "block": "masterfulmachinery:basic_basic_port_items_input"
+      },
+      "1": {
+        "block": "engineersdecor:steel_floor_grating"
+      }
+    }
+  })
 ```
 </details>
-</details>
+</details> <!-- END industrialCrusher -->
 
-## <span style="color:blue">Jerome226</span>
-<details>
-<summary>Infuser</summary>
+## <r>Jerome226</r>
+<details> <!-- infuser -->
+<summary><b>Infuser</b></summary>
 <br>
 
-Infuser made by Jerome226
+#### <b>Infuser made by Jerome226</b>
 ![Infuser made by Jerome226](/images/jerome226-infuser.png "Jerome226 - Infuser")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -90,24 +337,24 @@ Structure File
 ```
 </details>
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
 
 ```
 </details>
-</details>
-<details>
-<summary>Metalurgic Fabricator</summary>
+</details> <!-- END infuser -->
+<details> <!-- metallurgicFabricator -->
+<summary><b>Metalurgic Fabricator</b></summary>
 <br>
 
-Metalurgic Fabricator made by Jerome226
+#### <b>Metalurgic Fabricator made by Jerome226</b>
 ![Metalurgic Fabricator made by Jerome226](/images/jerome226-metallurgicfabricator.png "Jerome226 - Metalurgic Fabricator")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -115,24 +362,24 @@ Structure File
 ```
 </details>
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
 
 ```
 </details>
-</details>
-<details>
-<summary>Multiblock Inscriber</summary>
+</details> <!-- END metallurgicFabricator -->
+<details> <!-- multiblockInscriber -->
+<summary><b>Multiblock Inscriber</b></summary>
 <br>
 
-Multiblock Inscriber made by Jerome226
+#### <b>Multiblock Inscriber made by Jerome226</b>
 ![Multiblock Inscriber made by Jerome226](/images/jerome226-multiblockinscriber.png "Jerome226 - Multiblock Inscriber")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -140,24 +387,24 @@ Structure File
 ```
 </details>
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
 
 ```
 </details>
-</details>
-<details>
-<summary>Improved Metalurgic Fabricator</summary>
+</details> <!-- END multiblockInscriber -->
+<details> <!-- improvedMetallurgicFabricator -->
+<summary><b>Improved Metalurgic Fabricator</b></summary>
 <br>
 
-Improved Metalurgic Fabricator made by Jerome226
+#### <b>Improved Metalurgic Fabricator made by Jerome226</b>
 ![Improved Metalurgic Fabricator made by Jerome226](/images/jerome226-improvedmetallurgicfabricator.png "Jerome226 - Improved Metalurgic Fabricator")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -165,26 +412,26 @@ Structure File
 ```
 </details>
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
 
 ```
 </details>
-</details>
+</details> <!-- END improvedMetallurgicFabricator -->
 
-## <span style="color:blue">ThomasR</span>
-<details>
-<summary>Quantum Implosion Compressor</summary>
+## <r>ThomasR</r>
+<details> <!-- quantumImplosionCompressor -->
+<summary><b>Quantum Implosion Compressor</b></summary>
 <br>
 
-Quantum Implosion Compressor made by ThomasR
+#### <b>Quantum Implosion Compressor made by ThomasR</b>
 ![Quantum Implosion Compressor made by ThomasR](/images/thomasr-quantumimplosioncompressor.png "ThomasR - Quantum Implosion Compressor")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -192,24 +439,24 @@ Structure File
 ```
 </details>
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
 
 ```
 </details>
-</details>
-<details>
-<summary>UU Oven</summary>
+</details> <!-- END quantumImplosionCompressor -->
+<details> <!-- uuOven -->
+<summary><b>UU Oven</b></summary>
 <br>
 
-UU Oven made by ThomasR
+#### <b>UU Oven made by ThomasR</b>
 ![UU Oven made by ThomasR](/images/thomasr-uuoven.png "ThomasR UU Oven")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -217,28 +464,28 @@ Structure File
 ```
 </details>
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
 
 ```
 </details>
-</details>
+</details> <!-- END uuOven -->
 
-## <span style="color:blue">TemperedFool</span>
-<details>
-<summary>Starlight Infusing Engine</summary>
+## <r>TemperedFool</r>
+<details> <!-- starlightInfusingEngine -->
+<summary><b>Starlight Infusing Engine</b></summary>
 <br>
 
-Starlight Infusing Engine made by TemperedFool
+#### <b>Starlight Infusing Engine made by TemperedFool</b>
 ![Starlight Infusing Engine made by TemperedFool](/images/temperedfool-starlightinfusingengine1.png "TemperedFool Starlight Infusing Engine")
 
 ![Starlight Infusing Engine made by TemperedFool](/images/temperedfool-starlightinfusingengine2.png "TemperedFool Starlight Infusing Engine")
 
-Structure File
+<g>Structure File</g>
 <details>
-<summary>Datapack</summary>
+<summary><g>Datapack</g></summary>
 <br>
 
 ```json
@@ -317,7 +564,7 @@ Structure File
 ```
 </details>
 <details>
-<summary>KubeJS</summary>
+<summary><g>KubeJS</g></summary>
 <br>
 
 ```json
@@ -395,4 +642,159 @@ event.custom({
     })
 ```
 </details>
+</details> <!-- END starlightInfusingEngine -->
+
+## <r>Pikminman13</r>
+<details> <!-- cottonCandy -->
+<summary><b>Forever Spinny Cotton Candy Machine</b></summary>
+<br>
+
+#### <b>Forever Spinny Cotton Candy Machine made by Pikminman13</b>
+![Forever Spinny Cotton Candy Machine made by Pikminman13](/images/pikminman13-cottoncandy.png "Pikminman13 - Forever Spinny Cotton Candy Machine")
+
+<g>Structure File</g>
+<details>
+<summary><g>Datapack</g></summary>
+<br>
+
+```json
+{
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "cotton_candy",
+    "id": "foreverspinnycottoncandymachine",
+    "name": "Forever Spinny Cotton Candy Machine",
+    "layout": [
+    [
+      " SSS ",
+      "SSSSS",
+      "SSSSS",
+      "SSSSS",
+      " SSS "
+    ],
+    [
+      "SSSSS",
+      "S   S",
+      "I B O",
+      "S   S",
+      "SSCSS"
+    ],
+    [
+      "F   F",
+      "     ",
+      "  A  ",
+      "     ",
+      "F   F"
+    ],
+    [
+      "PPPPP",
+      "PPPPP",
+      "PPRPP",
+      "PPPPP",
+      "PPPPP"
+    ]
+  ],
+    "legend": {
+    "A": {
+      "block": "create:shaft"
+    },
+    "S": {
+      "block": "chiseled:dent_stone"
+    },
+    "B": {
+      "block": "create:basin"
+    },
+    "F": {
+      "block": "minecraft:oak_fence"
+    },
+    "P": {
+      "block": "minecraft:oak_planks"
+    },
+    "I":  {
+      "block": "masterfulmachinery:cotton_candy_small_port_fluids_input"
+    },
+    "O": {
+      "block": "masterfulmachinery:cotton_candy_basic_port_items_output"
+    },
+    "C": {
+      "block": "masterfulmachinery:cotton_candy_controller"
+    },
+    "R": {
+      "block": "masterfulmachinery:cotton_candy_rotate_port_create_rotation_input"
+    }
+  }
+}
+```
 </details>
+<details>
+<summary><g>KubeJS</g></summary>
+<br>
+
+```json
+event.custom({
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "cotton_candy",
+    "id": "foreverspinnycottoncandymachine",
+    "name": "Forever Spinny Cotton Candy Machine",
+    "layout": [
+    [
+      " SSS ",
+      "SSSSS",
+      "SSSSS",
+      "SSSSS",
+      " SSS "
+    ],
+    [
+      "SSSSS",
+      "S   S",
+      "I B O",
+      "S   S",
+      "SSCSS"
+    ],
+    [
+      "F   F",
+      "     ",
+      "  A  ",
+      "     ",
+      "F   F"
+    ],
+    [
+      "PPPPP",
+      "PPPPP",
+      "PPRPP",
+      "PPPPP",
+      "PPPPP"
+    ]
+  ],
+    "legend": {
+    "A": {
+      "block": "create:shaft"
+    },
+    "S": {
+      "block": "chiseled:dent_stone"
+    },
+    "B": {
+      "block": "create:basin"
+    },
+    "F": {
+      "block": "minecraft:oak_fence"
+    },
+    "P": {
+      "block": "minecraft:oak_planks"
+    },
+    "I":  {
+      "block": "masterfulmachinery:cotton_candy_small_port_fluids_input"
+    },
+    "O": {
+      "block": "masterfulmachinery:cotton_candy_basic_port_items_output"
+    },
+    "C": {
+      "block": "masterfulmachinery:cotton_candy_controller"
+    },
+    "R": {
+      "block": "masterfulmachinery:cotton_candy_rotate_port_create_rotation_input"
+    }
+  }
+})
+```
+</details>
+</details> <!-- END cottonCandy -->
