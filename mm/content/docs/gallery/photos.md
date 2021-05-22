@@ -188,7 +188,6 @@ b { color: DodgerBlue }
   }
 ```
 </details>
-
 <details>
 <summary><g>KubeJS</g></summary>
 <br>
@@ -333,7 +332,74 @@ event.custom({
 <br>
 
 ```json
-
+{
+        "type": "masterfulmachinery:machine_structure",
+        "controllerId": "infuser",
+        "id": "infuser",
+        "name": "Infuser",
+        "layout": [
+            [
+              "AEA",
+              "IAO",
+              "ACA"
+            ],
+            [
+              "P P",
+              "ZMW",
+              "P P"
+            ],
+            [
+                "P P",
+                "   ",
+                "P P"
+            ],
+            [
+                "P P",
+                " S ",
+                "P P"
+            ],
+            [
+                "AAA",
+                "AFA",
+                "AAA"
+            ]
+          ],
+          "legend": {
+            "A": {
+                "block": "superpackutils:infuser_casing"
+            },
+            "E": {
+                "block": "masterfulmachinery:infuser_basic_port_energy_input"
+            },
+            "I":  {
+                "block": "masterfulmachinery:infuser_basic_port_mekanism_gas_input"
+            },
+            "C":  {
+              "block": "masterfulmachinery:infuser_controller"
+            },
+            "M":  {
+                "block": "create:depot"
+            },
+            "S":  {
+                "block": "create:spout"
+            },
+            "F":  {
+                "block": "masterfulmachinery:infuser_basic_port_fluids_input"
+            },
+            "P":  {
+                "block": "immersiveengineering:steel_fence"
+            },
+            "Z":  {
+                "block": "masterfulmachinery:infuser_basic_port_items_input"
+            },
+            "W":  {
+                "block": "masterfulmachinery:infuser_basic_port_items_output"
+            },
+            "O": {
+                "block": "masterfulmachinery:infuser_basic_port_mekanism_gas_output"
+            }
+        }
+    }
 ```
 </details>
 <details>
@@ -341,10 +407,204 @@ event.custom({
 <br>
 
 ```json
-
+event.custom({
+        "type": "masterfulmachinery:machine_structure",
+        "controllerId": "infuser",
+        "id": "infuser",
+        "name": "Infuser",
+        "layout": [
+            [
+              "AEA",
+              "IAO",
+              "ACA"
+            ],
+            [
+              "P P",
+              "ZMW",
+              "P P"
+            ],
+            [
+                "P P",
+                "   ",
+                "P P"
+            ],
+            [
+                "P P",
+                " S ",
+                "P P"
+            ],
+            [
+                "AAA",
+                "AFA",
+                "AAA"
+            ]
+          ],
+          "legend": {
+            "A": {
+                "block": "superpackutils:infuser_casing"
+            },
+            "E": {
+                "block": "masterfulmachinery:infuser_basic_port_energy_input"
+            },
+            "I":  {
+                "block": "masterfulmachinery:infuser_basic_port_mekanism_gas_input"
+            },
+            "C":  {
+              "block": "masterfulmachinery:infuser_controller"
+            },
+            "M":  {
+                "block": "create:depot"
+            },
+            "S":  {
+                "block": "create:spout"
+            },
+            "F":  {
+                "block": "masterfulmachinery:infuser_basic_port_fluids_input"
+            },
+            "P":  {
+                "block": "immersiveengineering:steel_fence"
+            },
+            "Z":  {
+                "block": "masterfulmachinery:infuser_basic_port_items_input"
+            },
+            "W":  {
+                "block": "masterfulmachinery:infuser_basic_port_items_output"
+            },
+            "O": {
+                "block": "masterfulmachinery:infuser_basic_port_mekanism_gas_output"
+            }
+        }
+    })
 ```
 </details>
 </details> <!-- END infuser -->
+<details> <!-- inscriber -->
+<summary><b>Inscriber</b></summary>
+<br>
+
+#### <b>Inscriber made by Jerome226</b>
+![Inscriber made by Jerome226](/images/jerome226-inscriber.png "Jerome226 - Inscriber")
+
+<g>Structure File</g>
+<details>
+<summary><g>Datapack</g></summary>
+<br>
+
+```json
+{
+        "type": "masterfulmachinery:machine_structure",
+        "controllerId": "inscriber",
+        "id": "inscriber",
+        "name": "Inscriber",
+        "layout": [
+            [
+              "AEA",
+              "IAO",
+              "ACA"
+            ],
+            [
+              "A A",
+              " M ",
+              "A A"
+            ],
+            [
+                "APA",
+                "P P",
+                "APA"
+            ],
+            [
+                "AAA",
+                "AAA",
+                "AAA"
+            ],
+            
+          ],
+          "legend": {
+            "A": {
+                "block": "superpackutils:inscriber_casing"
+            },
+            "E": {
+                "block": "masterfulmachinery:inscriber_basic_port_energy_input"
+            },
+            "I":  {
+                "block": "masterfulmachinery:inscriber_basic_port_items_input"
+            },
+            "C":  {
+              "block": "masterfulmachinery:inscriber_controller"
+            },
+            "M":  {
+                "block": "refinedstorage:machine_casing"
+            },
+            "P":  {
+                "block": "create:mechanical_press"
+            },
+            "O": {
+                "block": "masterfulmachinery:inscriber_basic_port_items_output"
+            }
+        }
+    }
+```
+</details>
+<details>
+<summary><g>KubeJS</g></summary>
+<br>
+
+```json
+event.custom({
+        "type": "masterfulmachinery:machine_structure",
+        "controllerId": "inscriber",
+        "id": "inscriber",
+        "name": "Inscriber",
+        "layout": [
+            [
+              "AEA",
+              "IAO",
+              "ACA"
+            ],
+            [
+              "A A",
+              " M ",
+              "A A"
+            ],
+            [
+                "APA",
+                "P P",
+                "APA"
+            ],
+            [
+                "AAA",
+                "AAA",
+                "AAA"
+            ],
+            
+          ],
+          "legend": {
+            "A": {
+                "block": "superpackutils:inscriber_casing"
+            },
+            "E": {
+                "block": "masterfulmachinery:inscriber_basic_port_energy_input"
+            },
+            "I":  {
+                "block": "masterfulmachinery:inscriber_basic_port_items_input"
+            },
+            "C":  {
+              "block": "masterfulmachinery:inscriber_controller"
+            },
+            "M":  {
+                "block": "refinedstorage:machine_casing"
+            },
+            "P":  {
+                "block": "create:mechanical_press"
+            },
+            "O": {
+                "block": "masterfulmachinery:inscriber_basic_port_items_output"
+            }
+        }
+    })
+```
+</details>
+</details> <!-- END inscriber -->
 <details> <!-- metallurgicFabricator -->
 <summary><b>Metalurgic Fabricator</b></summary>
 <br>
@@ -358,7 +618,55 @@ event.custom({
 <br>
 
 ```json
-
+{
+        "type": "masterfulmachinery:machine_structure",
+        "controllerId": "metallurgic_fabricator",
+        "id": "metallurgic_fabricator",
+        "name": "Metallurgic Fabricator",
+        "layout": [
+            [
+              "AEA",
+              "IAO",
+              "ACA"
+            ],
+            [
+              "AFA",
+              "FMF",
+              "APA"
+            ],
+            [
+                "AAA",
+                "AAA",
+                "AAA"
+            ]
+          ],
+          "legend": {
+            "A": {
+                "block": "superpackutils:metallurgic_casing"
+            },
+            "E": {
+                "block": "masterfulmachinery:metallurgic_fabricator_basic_port_energy_input"
+            },
+            "I":  {
+                "block": "masterfulmachinery:metallurgic_fabricator_basic_port_items_input"
+            },
+            "C":  {
+              "block": "masterfulmachinery:metallurgic_fabricator_controller"
+            },
+            "M":  {
+                "block": "refinedstorage:machine_casing"
+            },
+            "P":  {
+                "block": "mekanism:metallurgic_infuser"
+            },
+            "F":  {
+                "block": "immersiveengineering:heavy_engineering"
+            },
+            "O": {
+                "block": "masterfulmachinery:metallurgic_fabricator_basic_port_items_output"
+            }
+        }
+    }
 ```
 </details>
 <details>
@@ -366,35 +674,58 @@ event.custom({
 <br>
 
 ```json
-
+event.custom({
+        "type": "masterfulmachinery:machine_structure",
+        "controllerId": "metallurgic_fabricator",
+        "id": "metallurgic_fabricator",
+        "name": "Metallurgic Fabricator",
+        "layout": [
+            [
+              "AEA",
+              "IAO",
+              "ACA"
+            ],
+            [
+              "AFA",
+              "FMF",
+              "APA"
+            ],
+            [
+                "AAA",
+                "AAA",
+                "AAA"
+            ]
+          ],
+          "legend": {
+            "A": {
+                "block": "superpackutils:metallurgic_casing"
+            },
+            "E": {
+                "block": "masterfulmachinery:metallurgic_fabricator_basic_port_energy_input"
+            },
+            "I":  {
+                "block": "masterfulmachinery:metallurgic_fabricator_basic_port_items_input"
+            },
+            "C":  {
+              "block": "masterfulmachinery:metallurgic_fabricator_controller"
+            },
+            "M":  {
+                "block": "refinedstorage:machine_casing"
+            },
+            "P":  {
+                "block": "mekanism:metallurgic_infuser"
+            },
+            "F":  {
+                "block": "immersiveengineering:heavy_engineering"
+            },
+            "O": {
+                "block": "masterfulmachinery:metallurgic_fabricator_basic_port_items_output"
+            }
+        }
+    })
 ```
 </details>
 </details> <!-- END metallurgicFabricator -->
-<details> <!-- multiblockInscriber -->
-<summary><b>Multiblock Inscriber</b></summary>
-<br>
-
-#### <b>Multiblock Inscriber made by Jerome226</b>
-![Multiblock Inscriber made by Jerome226](/images/jerome226-multiblockinscriber.png "Jerome226 - Multiblock Inscriber")
-
-<g>Structure File</g>
-<details>
-<summary><g>Datapack</g></summary>
-<br>
-
-```json
-
-```
-</details>
-<details>
-<summary><g>KubeJS</g></summary>
-<br>
-
-```json
-
-```
-</details>
-</details> <!-- END multiblockInscriber -->
 <details> <!-- improvedMetallurgicFabricator -->
 <summary><b>Improved Metalurgic Fabricator</b></summary>
 <br>
@@ -408,7 +739,61 @@ event.custom({
 <br>
 
 ```json
-
+{
+	"type": "masterfulmachinery:machine_structure",
+	"controllerId": "improved_metallurgic_fabricator",
+	"id": "improved_metallurgic_fabricator",
+	"name": "Improved Metallurgic Fabricator",
+	"layout": [
+		[
+			"AAIAA",
+			"AAAAA",
+			"AAAAA",
+			"EAAAO"
+		],
+		[
+			"AAPAA",
+			"ASSSA",
+			"ASSSA",
+			"AFCFA"
+		],
+		[
+			" AAA ",
+			"AGGGA",
+			"AGGGA",
+			" AAA "
+		]
+	],
+	"legend": {
+		"A": {
+			"block": "superpackutils:improved_metallurgic_casing"
+		},
+		"S": {
+			"block": "mekanism:superheating_element"
+		},
+		"G": {
+			"block": "thermal:obsidian_glass"
+		},
+		"F": {
+			"block": "mekanism:metallurgic_infuser"
+		},
+		"P": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_pncr_pressure_input"
+		},
+		"E": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_items_input"
+		},
+		"O": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_items_output"
+		},
+		"I": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_energy_input"
+		},
+		"C": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_controller"
+		}
+	}
+}
 ```
 </details>
 <details>
@@ -416,7 +801,61 @@ event.custom({
 <br>
 
 ```json
-
+ event.custom({
+	"type": "masterfulmachinery:machine_structure",
+	"controllerId": "improved_metallurgic_fabricator",
+	"id": "improved_metallurgic_fabricator",
+	"name": "Improved Metallurgic Fabricator",
+	"layout": [
+		[
+			"AAIAA",
+			"AAAAA",
+			"AAAAA",
+			"EAAAO"
+		],
+		[
+			"AAPAA",
+			"ASSSA",
+			"ASSSA",
+			"AFCFA"
+		],
+		[
+			" AAA ",
+			"AGGGA",
+			"AGGGA",
+			" AAA "
+		]
+	],
+	"legend": {
+		"A": {
+			"block": "superpackutils:improved_metallurgic_casing"
+		},
+		"S": {
+			"block": "mekanism:superheating_element"
+		},
+		"G": {
+			"block": "thermal:obsidian_glass"
+		},
+		"F": {
+			"block": "mekanism:metallurgic_infuser"
+		},
+		"P": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_pncr_pressure_input"
+		},
+		"E": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_items_input"
+		},
+		"O": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_items_output"
+		},
+		"I": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_basic_port_energy_input"
+		},
+		"C": {
+			"block": "masterfulmachinery:improved_metallurgic_fabricator_controller"
+		}
+	}
+})
 ```
 </details>
 </details> <!-- END improvedMetallurgicFabricator -->
@@ -435,7 +874,60 @@ event.custom({
 <br>
 
 ```json
-
+{
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "quantum",
+    "id": "quantum_implosion_compressor",
+    "name": "Quantum Implosion Compressor",
+    "layout": [
+    [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    [
+      "XFX",
+      "IEO",
+      "XCX"
+    ],
+    [
+      "XGX",
+      "XEX",
+      "XKX"
+    ],
+    [
+      "XXX",
+      "XNX",
+      "XXX"
+    ]
+  ],
+  "legend": {
+    "X": {
+      "block": "brutaltinkering:casing_quantum"
+    },
+    "E": {
+      "block": "extendedcrafting:redstone_ingot_block"
+    },
+    "I": {
+      "block": "masterfulmachinery:quantum_item_port_items_input"
+    },
+    "O": {
+      "block": "masterfulmachinery:quantum_item_port_items_output"
+    },
+    "F": {
+      "block": "masterfulmachinery:quantum_fluid_port_fluids_input"
+    },
+    "G": {
+      "block": "masterfulmachinery:quantum_gas_port_mekanism_gas_output"
+    },
+    "N": {
+      "block": "masterfulmachinery:quantum_energy_port_energy_input"
+    },
+    "K": {
+      "block": "brutaltinkering:casing_quantum_compresser"
+    }
+  }
+}
 ```
 </details>
 <details>
@@ -443,16 +935,69 @@ event.custom({
 <br>
 
 ```json
-
+event.custom({
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "quantum",
+    "id": "quantum_implosion_compressor",
+    "name": "Quantum Implosion Compressor",
+    "layout": [
+    [
+      "XXX",
+      "XXX",
+      "XXX"
+    ],
+    [
+      "XFX",
+      "IEO",
+      "XCX"
+    ],
+    [
+      "XGX",
+      "XEX",
+      "XKX"
+    ],
+    [
+      "XXX",
+      "XNX",
+      "XXX"
+    ]
+  ],
+  "legend": {
+    "X": {
+      "block": "brutaltinkering:casing_quantum"
+    },
+    "E": {
+      "block": "extendedcrafting:redstone_ingot_block"
+    },
+    "I": {
+      "block": "masterfulmachinery:quantum_item_port_items_input"
+    },
+    "O": {
+      "block": "masterfulmachinery:quantum_item_port_items_output"
+    },
+    "F": {
+      "block": "masterfulmachinery:quantum_fluid_port_fluids_input"
+    },
+    "G": {
+      "block": "masterfulmachinery:quantum_gas_port_mekanism_gas_output"
+    },
+    "N": {
+      "block": "masterfulmachinery:quantum_energy_port_energy_input"
+    },
+    "K": {
+      "block": "brutaltinkering:casing_quantum_compresser"
+    }
+  }
+})
 ```
 </details>
 </details> <!-- END quantumImplosionCompressor -->
-<details> <!-- uuOven -->
-<summary><b>UU Oven</b></summary>
+<details> <!-- nutritionalRefabricator -->
+<summary><b>Nutritional Refabricator</b></summary>
 <br>
 
-#### <b>UU Oven made by ThomasR</b>
-![UU Oven made by ThomasR](/images/thomasr-uuoven.png "ThomasR UU Oven")
+#### <b>Nutritional Refabricator made by ThomasR</b>
+![Nutritional Refabricator made by ThomasR](/images/thomasr-nutritionalrefabricator.png "ThomasR - Nutritional Refabricator")
 
 <g>Structure File</g>
 <details>
@@ -460,7 +1005,88 @@ event.custom({
 <br>
 
 ```json
-
+{
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "electrosteel",
+    "id": "matter_oven",
+    "name": "Nutritional Refabricator",
+    "layout": [
+    [
+      "BBBBB",
+      "BBBBB",
+      "BECEB",
+      "E   E"
+    ],
+    [
+      "BBPBB",
+      "BNNNB",
+      "BGIOB",
+      "W   W"
+    ],
+    [
+      "BBBBB",
+      "B   B",
+      "BFFFB",
+      "W   W"
+    ],
+    [
+      "BBBBB",
+      "BBBBB",
+      "BBBBB",
+      "TTTTT"
+    ],
+    [
+      " SSS ",
+      "LS SL",
+      " SSS ",
+      "     "
+    ],
+    [
+      " TST ",
+      " S S ",
+      " TST ",
+      "     "
+    ]
+  ],
+  "legend": {
+    "B": {
+      "block": "immersiveengineering:blastbrick"
+    },
+    "E": {
+      "block": "brutaltinkering:casing_electrosteel"
+    },
+    "W": {
+      "block": "minecraft:stone_brick_wall"
+    },
+    "P": {
+      "block": "masterfulmachinery:electrosteel_air_port_pncr_pressure_input"
+    },
+    "N": {
+      "block": "excompressum:compressed_netherrack"
+    },
+    "G": {
+      "block": "masterfulmachinery:electrosteel_gas_port_mekanism_gas_input"
+    },
+    "I": {
+      "block": "masterfulmachinery:electrosteel_large_item_port_items_input"
+    },
+    "O": {
+      "block": "masterfulmachinery:electrosteel_large_item_port_items_output"
+    },
+    "F": {
+      "block": "minecraft:furnace"
+    },
+    "T": {
+      "block": "minecraft:stone_brick_slab"
+    },
+    "S": {
+      "block": "minecraft:stone_bricks"
+    },
+    "L": {
+      "block": "immersiveengineering:slab_blastbrick"
+    }
+  }
+}
 ```
 </details>
 <details>
@@ -468,10 +1094,91 @@ event.custom({
 <br>
 
 ```json
-
+event.custom({
+    "type": "masterfulmachinery:machine_structure",
+    "controllerId": "electrosteel",
+    "id": "matter_oven",
+    "name": "Nutritional Refabricator",
+    "layout": [
+    [
+      "BBBBB",
+      "BBBBB",
+      "BECEB",
+      "E   E"
+    ],
+    [
+      "BBPBB",
+      "BNNNB",
+      "BGIOB",
+      "W   W"
+    ],
+    [
+      "BBBBB",
+      "B   B",
+      "BFFFB",
+      "W   W"
+    ],
+    [
+      "BBBBB",
+      "BBBBB",
+      "BBBBB",
+      "TTTTT"
+    ],
+    [
+      " SSS ",
+      "LS SL",
+      " SSS ",
+      "     "
+    ],
+    [
+      " TST ",
+      " S S ",
+      " TST ",
+      "     "
+    ]
+  ],
+  "legend": {
+    "B": {
+      "block": "immersiveengineering:blastbrick"
+    },
+    "E": {
+      "block": "brutaltinkering:casing_electrosteel"
+    },
+    "W": {
+      "block": "minecraft:stone_brick_wall"
+    },
+    "P": {
+      "block": "masterfulmachinery:electrosteel_air_port_pncr_pressure_input"
+    },
+    "N": {
+      "block": "excompressum:compressed_netherrack"
+    },
+    "G": {
+      "block": "masterfulmachinery:electrosteel_gas_port_mekanism_gas_input"
+    },
+    "I": {
+      "block": "masterfulmachinery:electrosteel_large_item_port_items_input"
+    },
+    "O": {
+      "block": "masterfulmachinery:electrosteel_large_item_port_items_output"
+    },
+    "F": {
+      "block": "minecraft:furnace"
+    },
+    "T": {
+      "block": "minecraft:stone_brick_slab"
+    },
+    "S": {
+      "block": "minecraft:stone_bricks"
+    },
+    "L": {
+      "block": "immersiveengineering:slab_blastbrick"
+    }
+  }
+})
 ```
 </details>
-</details> <!-- END uuOven -->
+</details> <!-- END nutritionalRefabricator -->
 
 ## <r>TemperedFool</r>
 <details> <!-- starlightInfusingEngine -->
@@ -614,7 +1321,7 @@ event.custom({
         "A": {
             "block": "astralsorcery:marble_raw"
         },
-       "B": {
+        "B": {
             "block": "astralsorcery:marble_runed"
         },
         "G": {
@@ -798,3 +1505,1095 @@ event.custom({
 ```
 </details>
 </details> <!-- END cottonCandy -->
+
+## <r>Warbringer1</r>
+<details> <!-- hellFireFurnace -->
+<summary><b>HellFire Furnace</b></summary>
+<br>
+
+#### <b>HellFire Furnace made by Warbringer1</b>
+![HellFire Furnace made by Warbringer1](/images/warbringer1-hellfirefurnace.png "Warbringer1 - HellFire Furnace")
+
+<g>Structure File</g>
+<details>
+<summary><g>Datapack</g></summary>
+<br>
+
+```json
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "hellfirefurnace",
+  "controllerId": "primitive",
+  "name": "hellfirefurnace",
+  "layout": [
+    [
+      "HHHHHHH",
+      "HGGGGGH",
+      "HGGGGGH",
+      "HGGGGGH",
+      "HHHHHHH"
+    ],
+    [
+      "HFFFFFH",
+      "HEEEEEH",
+      "HEEEEEH",
+      "HEEEEEH",
+      "HHHHHHH"
+    ],
+    [
+      "HFFCFFH",
+      "H     H",
+      "DBBBBBA",
+      "H     H",
+      "HFFFFFH"
+    ],
+    [
+      "HHHHHHH",
+      "HH   HH",
+      "HH   HH",
+      "HH   HH",
+      "HHHHHHH"
+    ],
+    [
+      "  HHH  ",
+      " H   H ",
+      " H   H ",
+      " H   H ",
+      "  HHH  "
+    ]
+  ],
+  "legend": {
+    "H": {
+      "block": "minecraft:polished_blackstone_bricks"
+    },
+    "G": {
+      "block": "minecraft:soul_soil"
+    },
+    "F": {
+      "block": "tconstruct:clear_glass"
+    },
+    "E": {
+      "block": "minecraft:soul_fire"
+    },
+    "D": {
+      "block": "masterfulmachinery:primitive_normal_port_items_input"
+    },
+    "B": {
+      "block": "immersiveengineering:conveyor_basic"
+    },
+    "A": {
+      "block": "masterfulmachinery:primitive_normal_port_items_output"
+    }
+  }
+}
+```
+</details>
+<details>
+<summary><g>KubeJS</g></summary>
+<br>
+
+```json
+event.custom({
+  "type": "masterfulmachinery:machine_structure",
+  "id": "hellfirefurnace",
+  "controllerId": "primitive",
+  "name": "hellfirefurnace",
+  "layout": [
+    [
+      "HHHHHHH",
+      "HGGGGGH",
+      "HGGGGGH",
+      "HGGGGGH",
+      "HHHHHHH"
+    ],
+    [
+      "HFFFFFH",
+      "HEEEEEH",
+      "HEEEEEH",
+      "HEEEEEH",
+      "HHHHHHH"
+    ],
+    [
+      "HFFCFFH",
+      "H     H",
+      "DBBBBBA",
+      "H     H",
+      "HFFFFFH"
+    ],
+    [
+      "HHHHHHH",
+      "HH   HH",
+      "HH   HH",
+      "HH   HH",
+      "HHHHHHH"
+    ],
+    [
+      "  HHH  ",
+      " H   H ",
+      " H   H ",
+      " H   H ",
+      "  HHH  "
+    ]
+  ],
+  "legend": {
+    "H": {
+      "block": "minecraft:polished_blackstone_bricks"
+    },
+    "G": {
+      "block": "minecraft:soul_soil"
+    },
+    "F": {
+      "block": "tconstruct:clear_glass"
+    },
+    "E": {
+      "block": "minecraft:soul_fire"
+    },
+    "D": {
+      "block": "masterfulmachinery:primitive_normal_port_items_input"
+    },
+    "B": {
+      "block": "immersiveengineering:conveyor_basic"
+    },
+    "A": {
+      "block": "masterfulmachinery:primitive_normal_port_items_output"
+    }
+  }
+})
+```
+</details>
+</details> <!-- END hellFireFurnace -->
+<details> <!-- oilDrill -->
+<summary><b>Oil Drill</b></summary>
+<br>
+
+#### <b>Oil Drill made by Warbringer1</b>
+![Oil Drill made by Warbringer1](/images/warbringer1-oildrill.png "Warbringer1 - Oil Drill")
+
+<g>Structure File</g>
+<details>
+<summary><g>Datapack</g></summary>
+<br>
+
+```json
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "oil_drill",
+  "controllerId": "primitive",
+  "name": "Oil Drill",
+  "layout": [
+    [
+      "     ",
+      "     ",
+      "QPPPO",
+      "QPPPO",
+      "QPPPO",
+      "QPPPO",
+      "QPPPO",
+      "NMMML",
+      "NKKKL"
+    ],
+    [
+      "  J  ",
+      "     ",
+      "C    ",
+      "     ",
+      "I   H",
+      "     ",
+      "     ",
+      "NMMML",
+      "NKKKL"
+    ],
+    [
+      "  R  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " FFF ",
+      " EEE "
+    ],
+    [
+      "  R  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "  D  "
+    ],
+    [
+      "  B  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  A  "
+    ]
+  ],
+  "legend": {
+    "Q": {
+      "block": "immersiveengineering:steel_scaffolding_wooden_top"
+    },
+    "P": {
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    "O": {
+      "block": "immersiveengineering:steel_scaffolding_grate_top"
+    },
+    "N": {
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    "M": {
+      "block": "immersiveengineering:storage_steel"
+    },
+    "L": {
+      "block": "immersiveengineering:light_engineering"
+    },
+    "K": {
+      "block": "immersiveengineering:generator"
+    },
+    "J": {
+      "block": "create:mechanical_drill"
+    },
+    "I": {
+      "block": "masterfulmachinery:primitive_normal_port_energy_input"
+    },
+    "H": {
+      "block": "masterfulmachinery:primitive_normal_port_fluids_output"
+    },
+    "G": {
+      "block": "create:shaft",
+	  "props": {
+		  "axis": "z"
+	  }
+    },
+	"R": {
+      "block": "create:shaft",
+	  "props": {
+		  "axis": "y"
+	  }
+    },
+    "F": {
+      "block": "immersiveengineering:coil_hv"
+    },
+    "E": {
+      "block": "immersiveengineering:coil_mv"
+    },
+    "D": {
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    "B": {
+      "block": "create:gearbox"
+    },
+    "A": {
+      "block": "immersiveengineering:dynamo"
+    },
+    "C": {
+      "block": "masterfulmachinery:primitive_controller",
+	  "props": {
+		  "face": "west"
+	  }
+    }
+  }
+}
+```
+</details>
+<details>
+<summary><g>KubeJS</g></summary>
+<br>
+
+```json
+event.custom({
+  "type": "masterfulmachinery:machine_structure",
+  "id": "oil_drill",
+  "controllerId": "primitive",
+  "name": "Oil Drill",
+  "layout": [
+    [
+      "     ",
+      "     ",
+      "QPPPO",
+      "QPPPO",
+      "QPPPO",
+      "QPPPO",
+      "QPPPO",
+      "NMMML",
+      "NKKKL"
+    ],
+    [
+      "  J  ",
+      "     ",
+      "C    ",
+      "     ",
+      "I   H",
+      "     ",
+      "     ",
+      "NMMML",
+      "NKKKL"
+    ],
+    [
+      "  R  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " FFF ",
+      " EEE "
+    ],
+    [
+      "  R  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "  D  "
+    ],
+    [
+      "  B  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  G  ",
+      "  A  "
+    ]
+  ],
+  "legend": {
+    "Q": {
+      "block": "immersiveengineering:steel_scaffolding_wooden_top"
+    },
+    "P": {
+      "block": "immersiveengineering:sheetmetal_steel"
+    },
+    "O": {
+      "block": "immersiveengineering:steel_scaffolding_grate_top"
+    },
+    "N": {
+      "block": "immersiveengineering:heavy_engineering"
+    },
+    "M": {
+      "block": "immersiveengineering:storage_steel"
+    },
+    "L": {
+      "block": "immersiveengineering:light_engineering"
+    },
+    "K": {
+      "block": "immersiveengineering:generator"
+    },
+    "J": {
+      "block": "create:mechanical_drill"
+    },
+    "I": {
+      "block": "masterfulmachinery:primitive_normal_port_energy_input"
+    },
+    "H": {
+      "block": "masterfulmachinery:primitive_normal_port_fluids_output"
+    },
+    "G": {
+      "block": "create:shaft",
+	  "props": {
+		  "axis": "z"
+	  }
+    },
+	"R": {
+      "block": "create:shaft",
+	  "props": {
+		  "axis": "y"
+	  }
+    },
+    "F": {
+      "block": "immersiveengineering:coil_hv"
+    },
+    "E": {
+      "block": "immersiveengineering:coil_mv"
+    },
+    "D": {
+      "block": "immersiveengineering:capacitor_hv"
+    },
+    "B": {
+      "block": "create:gearbox"
+    },
+    "A": {
+      "block": "immersiveengineering:dynamo"
+    },
+    "C": {
+      "block": "masterfulmachinery:primitive_controller",
+	  "props": {
+		  "facing": "west"
+	  }
+    }
+  }
+})
+```
+</details>
+</details> <!-- END oilDrill -->
+<details> <!-- industrialTurbine -->
+<summary><b>Industrial Turbine</b></summary>
+<br>
+
+#### <b>Industrial Turbine made by Warbringer1</b>
+![Industrial Turbine by Warbringer1](/images/warbringer1-industrialturbine.png "Warbringer1 - Industrial Turbine")
+
+<g>Structure File</g>
+<details>
+<summary><g>Datapack</g></summary>
+<br>
+
+```json
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "industrialturbine",
+  "controllerId": "mastermachine",
+  "name": "Industrial Turbine",
+  "layout": [
+    [
+      "!!!!!",
+      "!!!!!",
+      "!!!!!",
+      "!!!!!",
+      "!!!!!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"###\"",
+      "\"###\"",
+      "\"###\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!\"$\"!",
+      "\"#%#\"",
+      "&'()*",
+      "\"#+#\"",
+      "!\"C\"!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"#%#\"",
+      "\"'()\"",
+      "\"#+#\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"#%#\"",
+      "\"'()\"",
+      "\"#+#\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"#%#\"",
+      "\"'()\"",
+      "\"#+#\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!VVV!",
+      "V###V",
+      "V#,#V",
+      "V###V",
+      "!VVV!"
+    ],
+    [
+      "!!!!!",
+      "!!!!!",
+      "!!-!!",
+      "!!!!!",
+      "!!!!!"
+    ]
+  ],
+  "legend": {
+    "!": {
+      "block": "mekanism:boiler_casing"
+    },
+    "\"": {
+      "block": "tconstruct:clear_glass"
+    },
+    "#": {
+      "block": "mekanism:oxygen"
+    },
+    "$": {
+      "block": "masterfulmachinery:mastermachine_tank_port_fluids_output"
+    },
+    "%": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "north"
+	  }
+    },
+    "&": {
+      "block": "masterfulmachinery:mastermachine_mekgas_port_mekanism_gas_input"
+    },
+    "'": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "west"
+	  }
+    },
+    "(": {
+      "block": "create:radial_chassis",
+	  "props": {
+		  "axis": "y"
+	  }
+    },
+    ")": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "east"
+	  }
+    },
+    "*": {
+      "block": "masterfulmachinery:mastermachine_battery_port_energy_output"
+    },
+    "+": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "south"
+	  }
+    },
+    ",": {
+      "block": "create:mechanical_bearing",
+	  "props": {
+		  "facing": "down"
+	  }
+    },
+    "-": {
+      "block": "masterfulmachinery:mastermachine_spinny_port_create_rotation_output"
+    },
+    "V": {
+      "block": "mekanismgenerators:turbine_vent"
+    }
+  }
+}
+```
+</details>
+<details>
+<summary><g>KubeJS</g></summary>
+<br>
+
+```json
+event.custom({
+  "type": "masterfulmachinery:machine_structure",
+  "id": "industrialturbine",
+  "controllerId": "mastermachine",
+  "name": "Industrial Turbine",
+  "layout": [
+    [
+      "!!!!!",
+      "!!!!!",
+      "!!!!!",
+      "!!!!!",
+      "!!!!!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"###\"",
+      "\"###\"",
+      "\"###\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!\"$\"!",
+      "\"#%#\"",
+      "&'()*",
+      "\"#+#\"",
+      "!\"C\"!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"#%#\"",
+      "\"'()\"",
+      "\"#+#\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"#%#\"",
+      "\"'()\"",
+      "\"#+#\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!\"\"\"!",
+      "\"#%#\"",
+      "\"'()\"",
+      "\"#+#\"",
+      "!\"\"\"!"
+    ],
+    [
+      "!VVV!",
+      "V###V",
+      "V#,#V",
+      "V###V",
+      "!VVV!"
+    ],
+    [
+      "!!!!!",
+      "!!!!!",
+      "!!-!!",
+      "!!!!!",
+      "!!!!!"
+    ]
+  ],
+  "legend": {
+    "!": {
+      "block": "mekanism:boiler_casing"
+    },
+    "\"": {
+      "block": "tconstruct:clear_glass"
+    },
+    "#": {
+      "block": "mekanism:oxygen"
+    },
+    "$": {
+      "block": "masterfulmachinery:mastermachine_tank_port_fluids_output"
+    },
+    "%": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "north"
+	  }
+    },
+    "&": {
+      "block": "masterfulmachinery:mastermachine_mekgas_port_mekanism_gas_input"
+    },
+    "'": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "west"
+	  }
+    },
+    "(": {
+      "block": "create:radial_chassis",
+	  "props": {
+		  "axis": "y"
+	  }
+    },
+    ")": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "east"
+	  }
+    },
+    "*": {
+      "block": "masterfulmachinery:mastermachine_battery_port_energy_output"
+    },
+    "+": {
+      "block": "create:mechanical_plough",
+	  "props": {
+		  "facing": "south"
+	  }
+    },
+    ",": {
+      "block": "create:mechanical_bearing",
+	  "props": {
+		  "facing": "down"
+	  }
+    },
+    "-": {
+      "block": "masterfulmachinery:mastermachine_spinny_port_create_rotation_output"
+    },
+    "V": {
+      "block": "mekanismgenerators:turbine_vent"
+    }
+  }
+})
+```
+</details>
+</details> <!-- END industrialTurbine -->
+
+## <r>Ananas</r>
+<details> <!-- treeFarm -->
+<summary><b>Tree Farm</b></summary>
+<br>
+
+#### <b>Tree Farm made by Ananas</b>
+![Tree Farm made by Ananas](/images/ananas-treefarm.png "Ananas - Tree Farm")
+
+<g>Structure File</g>
+<details>
+<summary><g>Datapack</g></summary>
+<br>
+
+```json
+{
+  "type": "masterfulmachinery:machine_structure",
+  "id": "treefarm",
+  "controllerId": "treefarm",
+  "name": "Tree Farm",
+  "layout": [
+    [
+      "  !!!!!  ",
+      " !!!!!!! ",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      " !!!!!!! ",
+      "  !\"C#!  "
+    ],
+    [
+      "  !!!!!  ",
+      " !$$$$$! ",
+      "!$$$$$$$!",
+      "!$$$$$$$!",
+      "!$$$%$$$!",
+      "!$$$$$$$!",
+      "!$$$$$$$!",
+      " !$$$$$! ",
+      "  !!!!!  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   '   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   '   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&   (   &",
+      "&  (((( &",
+      "&   '   &",
+      "&  ('(  &",
+      "&   (   &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&  (((  &",
+      "& ('((( &",
+      "& ((((( &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&   (   &",
+      "&  (((  &",
+      "&   (   &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   )   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   *   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "         ",
+      "  &&&&&  ",
+      " &&&&&&& ",
+      " &&+++&& ",
+      " &&+,+&& ",
+      " &&+++&& ",
+      " &&&&&&& ",
+      "  &&&&&  ",
+      "         "
+    ]
+  ],
+  "legend": {
+    "!": {
+      "block": "mekanism:block_tin"
+    },
+    "\"": {
+      "block": "masterfulmachinery:treefarm_tree_port_items_input"
+    },
+    "#": {
+      "block": "masterfulmachinery:treefarm_tree_port_items_output"
+    },
+    "$": {
+      "block": "minecraft:grass_block"
+    },
+    "%": {
+      "block": "minecraft:dirt"
+    },
+    "&": {
+      "block": "minecraft:glass"
+    },
+    "'": {
+      "block": "minecraft:oak_log"
+    },
+    "(": {
+      "block": "minecraft:oak_leaves"
+    },
+    ")": {
+      "block": "immersiveengineering:steel_fence"
+    },
+    "*": {
+      "block": "immersiveengineering:coil_mv"
+    },
+    "+": {
+      "block": "immersiveengineering:storage_steel"
+    },
+    ",": {
+      "block": "masterfulmachinery:treefarm_tree2_port_energy_input"
+    }
+  }
+}
+```
+</details>
+<details>
+<summary><g>KubeJS</g></summary>
+<br>
+
+```json
+event.custom({
+  "type": "masterfulmachinery:machine_structure",
+  "id": "treefarm",
+  "controllerId": "treefarm",
+  "name": "Tree Farm",
+  "layout": [
+    [
+      "  !!!!!  ",
+      " !!!!!!! ",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      "!!!!!!!!!",
+      " !!!!!!! ",
+      "  !\"C#!  "
+    ],
+    [
+      "  !!!!!  ",
+      " !$$$$$! ",
+      "!$$$$$$$!",
+      "!$$$$$$$!",
+      "!$$$%$$$!",
+      "!$$$$$$$!",
+      "!$$$$$$$!",
+      " !$$$$$! ",
+      "  !!!!!  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   '   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   '   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&   (   &",
+      "&  (((( &",
+      "&   '   &",
+      "&  ('(  &",
+      "&   (   &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&  (((  &",
+      "& ('((( &",
+      "& ((((( &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&   (   &",
+      "&  (((  &",
+      "&   (   &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   )   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "  &&&&&  ",
+      " &     & ",
+      "&       &",
+      "&       &",
+      "&   *   &",
+      "&       &",
+      "&       &",
+      " &     & ",
+      "  &&&&&  "
+    ],
+    [
+      "         ",
+      "  &&&&&  ",
+      " &&&&&&& ",
+      " &&+++&& ",
+      " &&+,+&& ",
+      " &&+++&& ",
+      " &&&&&&& ",
+      "  &&&&&  ",
+      "         "
+    ]
+  ],
+  "legend": {
+    "!": {
+      "block": "mekanism:block_tin"
+    },
+    "\"": {
+      "block": "masterfulmachinery:treefarm_tree_port_items_input"
+    },
+    "#": {
+      "block": "masterfulmachinery:treefarm_tree_port_items_output"
+    },
+    "$": {
+      "block": "minecraft:grass_block"
+    },
+    "%": {
+      "block": "minecraft:dirt"
+    },
+    "&": {
+      "block": "minecraft:glass"
+    },
+    "'": {
+      "block": "minecraft:oak_log"
+    },
+    "(": {
+      "block": "minecraft:oak_leaves"
+    },
+    ")": {
+      "block": "immersiveengineering:steel_fence"
+    },
+    "*": {
+      "block": "immersiveengineering:coil_mv"
+    },
+    "+": {
+      "block": "immersiveengineering:storage_steel"
+    },
+    ",": {
+      "block": "masterfulmachinery:treefarm_tree2_port_energy_input"
+    }
+  }
+})
+```
+</details>
+</details> <!-- END treeFarm -->

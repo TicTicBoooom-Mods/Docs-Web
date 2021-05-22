@@ -76,6 +76,14 @@ toc: true
         "dangerPressure": 10,
         "criticalPressure": 30
       }
+    },
+	{
+	  "type": "masterfulmachinery:astral_starlight",
+      "name": "Starlight",
+      "id": "starlight",
+      "data": {
+        "capacity": 1000
+      }
     }
   ]
 }
